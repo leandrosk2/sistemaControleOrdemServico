@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:composite="http://java.sun.com/jsf/composite"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Sistema de Controle de Ordem de Serviço</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+	<h:outputStylesheet library="css" name="bootstrap-theme.min.css" />
+	<h:outputStylesheet library="css" name="style.css" />
+	<h:outputScript library="js" name="index.js" />
+	<h:outputScript library="js" name="jquery.min.js" />
+	<h:outputScript library="js" name="bootstrap.min.js" />
+</h:head>
+<h:body>
+	<h1>
+		<font color="#FFFFF"><label>Sistema de Controle de
+				Ordem de Serviço</label></font>
+	</h1>
+	<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="paginaPrincipal.html">Home </a></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Ordem Serviço <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li><a href="consultarOrdemServico.html">Consultar</a></li>
+					<li><a href="cadastrarOrdemServico.html">Cadastrar</a></li>
+				</ul></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Cliente <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li><a href="consultarCliente.html">Consultar</a></li>
+					<li><a href="cadastrarCliente.html">Cadastrar</a></li>
+				</ul></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Produto <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li><a href="consultarProduto.html">Consultar</a></li>
+					<li><a href="cadastrarProduto.html">Cadastrar</a></li>
+				</ul></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Serviços <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li><a href="consultarServico.html">Consultar</a></li>
+					<li><a href="cadastrarServico.html">Cadastrar</a></li>
+				</ul></li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Usuários <span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li><a href="consultarUsuario.html">Consultar</a></li>
+					<li><a href="cadastrarUsuario.html">Cadastrar</a></li>
+				</ul></li>
+			<li><a href="gerarRelatorio.html">Gerar Relatório</a></li>
+			<li><a href="../index.html">Sair</a></li>
+		</ul>
+	</div>
+	</nav>
+
+
+</h:body>
+</html>
