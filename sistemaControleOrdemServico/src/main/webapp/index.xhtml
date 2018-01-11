@@ -27,13 +27,13 @@
 		<section id="content"> <h:form>
 			<h1>Login</h1>
 			<div>
-				<p:inputText id="login" placeholder="Login" required="true" />
+				<p:inputText id="login" placeholder="Login" required="true" value="#{loginMB.login}" />
 			</div>
 			<div>
-				<p:password id="password" placeholder="Senha" required="true" />
+				<p:password id="password" placeholder="Senha" required="true" value="#{loginMB.password}"  />
 			</div>
 			<div>
-				<h:commandButton value="Acessar" type="submit" action="login.mbl" />
+				<h:commandButton value="Acessar" type="submit" action="#{loginMB.acessar()}" />
 				<h:commandLink value="Recuperar senha?" action="#" />
 			</div>
 		</h:form> </section>
